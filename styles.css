@@ -1,7 +1,8 @@
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -17,6 +18,9 @@ ul {
   }
 
 .header {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -26,8 +30,7 @@ ul {
 
 
 .section-one {
-    display: flex;
-    
+    display: flex;  
     justify-content: space-between;
 }
 
@@ -36,13 +39,16 @@ ul {
     justify-content: space-between;
 }
 
-.info {
+.info, .inspirational, .take-action {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
     display: flex;
     flex: 1;
 }
 
-.inspirational {
+/* .inspirational {
     display: flex;
     flex: 1;
 
-}
+} */
