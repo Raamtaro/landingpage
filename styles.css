@@ -43,8 +43,8 @@ a{
 }
 
 .logo {
-    font-size: 24px;
     color: #F9FAF8;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -80,7 +80,7 @@ a{
     padding: 7px 1em;
     font-size: 18px;
     border-radius: 12px;
-    border-color: #3882F6;
+    border: solid #3882F6;
     
     
 }
@@ -140,19 +140,58 @@ a{
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
-    padding: 64px 128px 64px 128px;
+    padding: 64px 128px;
+    gap: 24px;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    max-width: 1200px;
+    /* max-width: 1200px; */
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
 }
 /* --------------------------------------------------------------- END QUOTE SECTION --------------------------------------------------------------- */
 
+/* --------------------------------------------------------------- CALL TO ACTION SECTION --------------------------------------------------------------- */
+
+.take-action {
+    display: flex;
+    justify-content: center;
+    padding: 64px 128px;
+    color: #e5e7eb;
+}
+
+.modal-type-shit {
+    display: flex;
+    height: 120px;
+    width: 1200px;
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.signup-button-two {
+    border: solid #e5e7eb;
+    width: 120px;
+    height: 36px;
+    padding: 7px 1em;
+}
+
+.big-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+/* --------------------------------------------------------------- END CALL TO ACTION SECTION --------------------------------------------------------------- */
 
 footer {
     text-align: center;
     padding: 24px;
+    background-color: #1F2937;
+    color: #e5e7eb;
 }
